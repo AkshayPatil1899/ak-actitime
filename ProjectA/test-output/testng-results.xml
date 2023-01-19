@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[openBrowser]]>
+    </line>
+    <line>
+      <![CDATA[Login]]>
+    </line>
+    <line>
+      <![CDATA[CreateCustomer]]>
+    </line>
+    <line>
+      <![CDATA[Logout]]>
+    </line>
+    <line>
+      <![CDATA[Login]]>
+    </line>
+    <line>
+      <![CDATA[Logout]]>
+    </line>
+    <line>
+      <![CDATA[closeBrowser]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="32661" started-at="2023-01-19T15:52:17 IST" finished-at="2023-01-19T15:52:50 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="32661" started-at="2023-01-19T15:52:17 IST" finished-at="2023-01-19T15:52:50 IST">
+      <class name="com.actitime.testscript.CreateCustomer">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.actitime.testscript.CreateCustomer@77f99a05]" name="openBrowser" is-config="true" duration-ms="2123" started-at="2023-01-19T15:52:17 IST" finished-at="2023-01-19T15:52:19 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[openBrowser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.actitime.testscript.CreateCustomer@77f99a05]" name="login" is-config="true" duration-ms="7060" started-at="2023-01-19T15:52:19 IST" finished-at="2023-01-19T15:52:27 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="testCreateCustomer()[pri:0, instance:com.actitime.testscript.CreateCustomer@77f99a05]" name="testCreateCustomer" duration-ms="7350" started-at="2023-01-19T15:52:27 IST" finished-at="2023-01-19T15:52:34 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[CreateCustomer]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCreateCustomer -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.actitime.testscript.CreateCustomer@77f99a05]" name="logout" is-config="true" duration-ms="3415" started-at="2023-01-19T15:52:34 IST" finished-at="2023-01-19T15:52:37 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.actitime.testscript.CreateCustomer@77f99a05]" name="login" is-config="true" duration-ms="1927" started-at="2023-01-19T15:52:37 IST" finished-at="2023-01-19T15:52:39 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="testDeleteCustomer()[pri:0, instance:com.actitime.testscript.CreateCustomer@77f99a05]" name="testDeleteCustomer" duration-ms="6503" started-at="2023-01-19T15:52:39 IST" finished-at="2023-01-19T15:52:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteCustomer -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.actitime.testscript.CreateCustomer@77f99a05]" name="logout" is-config="true" duration-ms="4132" started-at="2023-01-19T15:52:46 IST" finished-at="2023-01-19T15:52:50 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.actitime.testscript.CreateCustomer@77f99a05]" name="closeBrowser" is-config="true" duration-ms="122" started-at="2023-01-19T15:52:50 IST" finished-at="2023-01-19T15:52:50 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[closeBrowser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.actitime.testscript.CreateCustomer -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
